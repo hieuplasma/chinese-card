@@ -1,0 +1,131 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+body {
+  position: relative;
+  color: white;
+  height: 100vh;
+  /* background: linear-gradient(
+    200.96deg,
+    #fedc2a -29.09%,
+    #dd5789 51.77%,
+    #7a2c9e 129.35%
+  ); */
+  background: linear-gradient(200.96deg,
+      #cfb84e -29.09%,
+      #75b69e 51.77%,
+      #445f54 129.35%);
+  font-family: sans-serif;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  appearance: none;
+  font-size: 1.3rem;
+  box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
+    0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+  transition: all ease-in 0.1s;
+  cursor: pointer;
+  opacity: 0.9;
+  margin: 5px 5px 5px 5px;
+}
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  height: fit-content;
+  width: fit-content;
+  margin: 10px;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.Hello {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 20px 0; */
+}
+
+.boxImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: azure;
+  border-style: solid;
+  margin: 5px 5px 5px 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 984px;
+  height: 708px;
+}
+
+.left-container {
+  justify-content: space-between;
+  padding: 10px 0px 10px 0px;
+  /* background-color: blue; */
+  height: fit-content;
+  position: relative;
+}
+
+.right-container {
+  justify-content: space-between;
+  padding: 10px 0px 10px 0px;
+  /* background-color: blue; */
+  height: fit-content;
+  position: relative;
+}
+
+.label-container {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  height: 200px;
+  align-items: center;
+  margin-left: 10px;
+  flex-wrap: wrap;
+}
+
+.remain-container {
+  display: flex;
+  border-style: solid;
+  border-width: 2;
+  border-color: white;
+  height: 453.75px;
+  width: 550px;
+  border-radius: 10px;
+  margin-left: 10px;
+  flex-direction: row;
+  padding: 5px;
+}
